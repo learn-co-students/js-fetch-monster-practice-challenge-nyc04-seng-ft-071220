@@ -1,0 +1,48 @@
+.monster-name-input:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease; 
+    opacity: 0;
+    background-color: lightblue;
+}
+
+input {
+    padding:10px;
+    width:250px;
+    font-size:14px;
+    margin: 5px;
+    display:block;
+    border-radius:10px;
+}
+
+.monster-age-input:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease; 
+    opacity: 0;
+    background-color: lightblue;
+    margin: 10px;
+}
+
+.monster-description-input:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease; 
+    opacity: 0;
+    background-color: lightblue
+}
+
+textarea {
+    padding:10px;
+    width:250px;
+    font-size:14px;
+    margin: 5px;
+    display:block;
+    border-radius:10px;
+    border:2px solid #556677;
+    resize: none;
+    overflow:hidden;
+}
+
+#create-new-monster-btn {
+    padding:10px;
+    width: 120px;
+    font-size:14px;
+    margin: 5px;
+    display:block;
+    border-radius:10px; 
+}
